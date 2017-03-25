@@ -2,8 +2,9 @@
 A bangumi description image generator based on bangumi.tv
 
 ## Demo
-![Demo(id=179949)](https://github.com/zhyupe/bgm-svg/raw/master/demo/179949.png)
 _Rendered by Inkscape on Ubuntu_
+
+![Demo(id=179949)](https://github.com/zhyupe/bgm-svg/raw/master/demo/179949.png)
 
 ## Usage
 Use ```api.php?id={id}``` as a image and insert to anywhere.
