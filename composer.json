@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php-curl-class/php-curl-class": "^7.2",
+        "bupt1987/html-parser": "^3.0"
+    }
+}

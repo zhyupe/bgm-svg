@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a248168b1a96cbbc9e9fd5df1c022fa7",
+    "content-hash": "a24ced1e60b2b88ee49c09db0cff548a",
+    "packages": [
+        {
+            "name": "bupt1987/html-parser",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bupt1987/html-parser.git",
+                "reference": "60f207eb5259988a3fb3c400efcb1ef7c6e7b58c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bupt1987/html-parser/zipball/60f207eb5259988a3fb3c400efcb1ef7c6e7b58c",
+                "reference": "60f207eb5259988a3fb3c400efcb1ef7c6e7b58c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.6.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HtmlParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "俊杰jerry",
+                    "email": "bupt1987@gmail.com",
+                    "homepage": "http://bupt1987.github.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Html Parser",
+            "homepage": "https://github.com/bupt1987/html-parser",
+            "time": "2016-04-21 12:18:56"
+        },
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "7.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "75edfe2ab1d70a741c9eb7a05028412180d50c1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/75edfe2ab1d70a741c9eb7a05028412180d50c1d",
+                "reference": "75edfe2ab1d70a741c9eb7a05028412180d50c1d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/Curl/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                }
+            ],
+            "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "json",
+                "php",
+                "requests",
+                "rest",
+                "restful",
+                "web service",
+                "xml"
+            ],
+            "time": "2017-01-27 07:49:43"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
