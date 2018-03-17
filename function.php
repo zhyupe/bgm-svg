@@ -54,7 +54,7 @@ function parse_bgm($url, $dom) {
   $tagDom = find_dom($dom, '.subject_tag_section .inner');
   $bgm['tag'] = [];
   if ($tagDom) {
-    $tagA = $tagDom->find('a');
+    $tagA = $tagDom->find('span');
     $tagB = $tagDom->find('small');
     $bgm['tagCount'] = min(count($tagA), 8);
     for ($i = 0; $i < $bgm['tagCount']; $i++) {
